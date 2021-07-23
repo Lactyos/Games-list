@@ -9,4 +9,5 @@ function openSettings() {
 function closeSettings() {
     document.getElementById("settings").style.display = "none";
     document.getElementById("body").style.backgroundColor = "#303030";
+
 }
