@@ -13,6 +13,11 @@ body {
 #settings_icon {
     cursor: pointer;
     margin-right: 30px;
+    transition: color 0.5s ease;
+}
+
+#settings_icon:hover {
+    color: #606060;
 }
 
 #close_btn {
@@ -28,6 +33,7 @@ body {
     height: 100%;
     background-color: white;
     display: none;
+    background-color: #303030;
 }
 
 .nav_bar {
@@ -41,15 +47,40 @@ a {
     color: white;
     cursor: pointer;
     text-decoration: none;
-    transition: color 0.1 ease;
+    transition: color 0.5s ease;
     font-size: 30px;
     margin: 10px;
 }
 
 a:hover {
-    color: gainsboro;
+    color: #606060;
 }
 
 .links {
     margin-left: 10px;
+}
+
+#title_div {
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin: 10px;
+}
+
+#start_btn {
+    background-color: #303030;
+    border: white 5px solid;
+    height: 50px;
+    color: white;
+    transition: color 0.5 ease;
+}
+
+#start_btn:hover {
+    background-color: #303030;
+    cursor: pointer;
 }
